@@ -5,4 +5,5 @@ Blogger::Application.routes.draw do
   resources :articles do
     resource :comments
   end
+  resources :tags
 end
